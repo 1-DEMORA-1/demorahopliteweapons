@@ -1,0 +1,74 @@
+weapons:
+  sculk_crossbow:
+    cooldown: 20
+    explosion:
+      power: 3.2
+      break-blocks: true
+      set-fire: false
+    sculk-spread:
+      radius: 5
+      blocks-per-tick: 3
+      tick-delay: 2
+      replace-chance: 0.7
+    particles:
+      warden-particles: true
+      particles-per-tick: 5
+
+  midas_sword:
+    initial-damage: 7
+    max-damage: 25
+    damage-per-kill: 2
+    attack-speed: -1.6
+
+  mjolnir:
+    damage:
+      melee_damage: 20.0
+      throw_damage: 15.0
+      area_damage: 12.0
+    cooldown:
+      throw_duration: 10
+      melee_duration: 5
+    animation:
+      flight_speed: 1.8
+      return_speed: 1.6
+      rotation_speed: 25.0
+      return_rotation_multiplier: 1.5
+
+  shadow_blade:
+    duration: 200
+    cooldown: 30
+
+  reaper_scythe:
+    cooldown: 40
+    heal_hearts: 2
+
+  villager_staff:
+    name: "§6§lПосох жителя"
+    custom_model_data: 3
+    cooldown:
+      time: 40
+    explosion:
+      power: 3.0
+    slime_ball_cmd: 12
+
+  dragon_katana:
+    cooldown-seconds: 30
+    dash-distance-blocks: 30.0
+    dash-speed-multiplier: 1.0
+
+  excalibur:
+    duration: 7
+    cooldown: 20
+
+  void_staff:
+    portal_cooldown: 40
+    shulker_cooldown: 30
+    shulker_explosion_power: 2.5
+
+messages:
+  prefix: "§8[§6DemoraHoplite§8] §r"
+  weapon-given: "§aВыдано оружие §e{weapon} §aигроку §e{player}"
+  weapon-not-found: "§cОружие §e{weapon} §cне найдено!"
+  player-not-found: "§cИгрок §e{player} §cне найден!"
+  no-permission: "§cУ вас нет прав для использования этой команды!"
+  config-reloaded: "§aКонфигурация перезагружена!"

@@ -1,0 +1,35 @@
+name: DemoraHopliteWeapons
+version: 2.1
+main: dev.demora.demorahopliteweapons.DemoraHopliteWeapons
+api-version: 1.21
+author: __DEMORA__
+description: Плагин на легендарные оружия by __DEMORA__
+
+commands:
+  demorahop:
+    description: Выдать оружие игроку
+    usage: /demorahop give <weapon> <player>
+    permission: demorahopliteweapons.give
+    
+  dragonrework:
+    description: Пробуждение драконьей катаны
+    usage: /dragonrework
+    permission: demorahopliteweapons.rework
+
+permissions:
+  demorahopliteweapons.*:
+    description: Все права плагина
+    default: op
+    children:
+      demorahopliteweapons.give: true
+      demorahopliteweapons.reload: true
+      demorahopliteweapons.rework: true
+  demorahopliteweapons.give:
+    description: Выдача оружия
+    default: op
+  demorahopliteweapons.reload:
+    description: Перезагрузка конфигурации
+    default: op
+  demorahopliteweapons.rework:
+    description: Пробуждение драконьей катаны
+    default: true
