@@ -1,0 +1,10 @@
+enabled: true
+
+awakened_dragon_katana:
+  damage: 11.0
+  teleport_explosion_damage: 15.0
+  path_explosion_damage: 10.0
+  teleport_explosion_radius: 3.0
+  path_explosion_radius: 3.0
+  teleport_cooldown: 20
+  swap_cooldown: 60

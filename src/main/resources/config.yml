@@ -1,0 +1,95 @@
+weapons:
+  sculk_crossbow:
+    cooldown: 20
+    explosion:
+      power: 3.2
+      break-blocks: true
+      set-fire: false
+    sculk-spread:
+      radius: 5
+      blocks-per-tick: 3
+      tick-delay: 2
+      replace-chance: 0.7
+    particles:
+      warden-particles: true
+      particles-per-tick: 5
+
+  midas_sword:
+    initial-damage: 7
+    max-damage: 25
+    damage-per-kill: 2
+    attack-speed: -2.4
+
+  mjolnir:
+    damage:
+      melee_damage: 20.0
+      throw_damage: 15.0
+      area_damage: 12.0
+    cooldown:
+      throw_duration: 10
+      melee_duration: 5
+    animation:
+      flight_speed: 1.8
+      return_speed: 1.6
+      rotation_speed: 25.0
+      return_rotation_multiplier: 1.5
+
+  shadow_blade:
+    duration: 200
+    cooldown: 30
+
+  reaper_scythe:
+    cooldown: 40
+    heal_hearts: 2
+
+  villager_staff:
+    cooldown:
+      time: 40
+    explosion:
+      power: 3.0
+
+  dragon_katana:
+    cooldown-seconds: 30
+    dash-distance-blocks: 30.0
+    dash-speed-multiplier: 1.0
+
+  excalibur:
+    duration: 7
+    cooldown: 20
+
+  void_staff:
+    portal_cooldown: 40
+    shulker_cooldown: 30
+    shulker_explosion_power: 2.5
+
+  magma_club:
+    cooldown: 15
+    damage: 10.0
+
+  shrink_ray:
+    cooldown: 40
+    shrink_duration: 12
+    enlarge_duration: 12
+    ray_speed: 1.3
+
+  chainsaw_sword:
+    curse-cooldown-seconds: 20
+    bleed-duration-seconds: 3
+    bleed-damage: 2.0
+
+  wither_sickles:
+    damage: 10.0
+    attack_speed: -2.4
+    wither_chance_hit: 0.1
+    wither_chance_throw: 0.2
+    wither_duration_ticks: 60
+    throw_cooldown: 10
+    throw_damage: 12.0
+
+messages:
+  prefix: "§8[§6DemoraHoplite§8] §r"
+  weapon-given: "§aВыдано оружие §e{weapon} §aигроку §e{player}"
+  weapon-not-found: "§cОружие §e{weapon} §cне найдено!"
+  player-not-found: "§cИгрок §e{player} §cне найден!"
+  no-permission: "§cУ вас нет прав для использования этой команды!"
+  config-reloaded: "§aКонфигурация перезагружена!"
