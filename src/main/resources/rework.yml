@@ -1,0 +1,21 @@
+enabled: true
+
+awakened_dragon_katana:
+  enabled: true
+  damage: 11.0
+  teleport_explosion_damage: 15.0
+  path_explosion_damage: 10.0
+  teleport_explosion_radius: 3.0
+  path_explosion_radius: 3.0
+  particle_sphere_duration: 2
+  path_explosion_interval: 5.0
+  teleport_cooldown: 20
+  swap_cooldown: 60
+
+awakened_wither_sickles:
+  enabled: true
+  shield_duration_seconds: 10
+  shield_cooldown_seconds: 30
+  shield_flame_count: 6
+  shield_radius: 2.5
+  shield_damage_reduction: 0.2

@@ -1,0 +1,156 @@
+weapons:
+  sculk_crossbow:
+    cooldown: 20
+    explosion:
+      power: 3.2
+      break-blocks: true
+      set-fire: false
+    sculk-spread:
+      radius: 5
+      blocks-per-tick: 3
+      tick-delay: 2
+      replace-chance: 0.7
+    particles:
+      warden-particles: true
+      particles-per-tick: 5
+
+  midas_sword:
+    initial-damage: 7
+    max-damage: 25
+    damage-per-kill: 2
+    attack-speed: -2.4
+
+  mjolnir:
+    attribute_damage: 11.0
+    attack_speed: -2.4
+    damage:
+      melee_damage: 20.0
+      throw_damage: 15.0
+      area_damage: 12.0
+    cooldown:
+      throw_duration: 10
+      melee_duration: 5
+    animation:
+      flight_speed: 1.8
+      return_speed: 1.6
+      rotation_speed: 25.0
+      return_rotation_multiplier: 1.5
+
+  shadow_blade:
+    attribute_damage: 11.0
+    attack_speed: -2.4
+    duration: 200
+    cooldown: 30
+
+  reaper_scythe:
+    attribute_damage: 11.0
+    attack_speed: -2.4
+    cooldown: 40
+    heal_hearts: 2
+
+  villager_staff:
+    cooldown:
+      time: 40
+    explosion:
+      power: 3.0
+
+  dragon_katana:
+    attribute_damage: 11.0
+    attack_speed: -2.4
+    cooldown-seconds: 30
+    dash-distance-blocks: 30.0
+    dash-speed-multiplier: 1.0
+
+  awakened_dragon_katana:
+    attribute_damage: 11.0
+    attack_speed: -2.4
+
+  excalibur:
+    attribute_damage: 11.0
+    attack_speed: -2.4
+    duration: 7
+    cooldown: 20
+
+  void_staff:
+    portal_cooldown: 40
+    shulker_cooldown: 30
+    shulker_explosion_power: 2.5
+
+  magma_club:
+    cooldown: 15
+    attribute_damage: 11.0
+    attack_speed: -2.4
+    damage: 10.0
+
+  shrink_ray:
+    cooldown: 40
+    shrink_duration: 12
+    enlarge_duration: 12
+    ray_speed: 1.3
+
+  chainsaw_sword:
+    attribute_damage: 11.0
+    attack_speed: -2.4
+    curse-cooldown-seconds: 20
+    bleed-duration-seconds: 3
+    bleed-damage: 2.0
+
+  wither_sickles:
+    damage: 10.0
+    attack_speed: -2.4
+    wither_chance_hit: 0.1
+    wither_chance_throw: 0.2
+    wither_duration_ticks: 60
+    throw_cooldown: 10
+    throw_damage: 12.0
+
+  awakened_wither_sickles:
+    damage: 13.0
+    attack_speed: -1.6
+    wither_chance_hit: 0.15
+    wither_chance_throw: 0.3
+    wither_duration_ticks: 80
+    throw_cooldown_seconds: 12
+    throw_damage: 15.0
+    fire_duration_ticks: 100
+    ignite_radius: 2.0
+
+  cloud_sword:
+    attribute_damage: 11.0
+    attack_speed: -2.4
+    speed_boost: 0.15
+    ability_duration: 10
+    cooldown: 25
+    cloud_lifetime_ticks: 40
+
+  hypnosis_staff:
+    cooldown: 5
+    max_controlled_mobs: 10
+    max_distance: 30.0
+    beam_speed: 2.0
+    follow_speed: 1.0
+
+  emerald_blade:
+    base_damage: 7.0
+    attack_speed: -2.4
+    damage_per_upgrade: 2.0
+    emeralds_per_upgrade: 64
+    emeralds_per_player_kill: 20
+    emeralds_per_mob_kill: 1
+
+  golem_hammer:
+    attribute_damage: 12.0
+    attack_speed: -3.0
+    cooldown: 40
+    launch_height: 4.0
+    shockwave_radius: 6.0
+    shockwave_damage: 15.0
+    knockback_strength: 2.0
+
+messages:
+  prefix: "§8[§6DemoraHoplite§8] §r"
+  weapon-given: "§aВыдано оружие §e{weapon} §aигроку §e{player}"
+  weapon-not-found: "§cОружие §e{weapon} §cне найдено!"
+  player-not-found: "§cИгрок §e{player} §cне найден!"
+  no-permission: "§cУ вас нет прав для использования этой команды!"
+  config-reloaded: "§aКонфигурация перезагружена!"

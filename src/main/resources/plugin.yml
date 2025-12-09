@@ -1,0 +1,61 @@
+name: DemoraHopliteWeapons
+version: 3.0
+main: dev.demora.demorahopliteweapons.DemoraHopliteWeapons
+api-version: 1.21
+author: __DEMORA__
+description: Плагин на легендарные оружия by __DEMORA__
+folia-supported: true
+spigot-supported: true
+commands:
+  demorahop:
+    description: Выдать оружие игроку
+    usage: /demorahop give <weapon> <player>
+    permission: demorahopliteweapons.give
+    
+  dragonrework:
+    description: Пробуждение драконьей катаны
+    usage: /dragonrework
+    permission: demorahopliteweapons.rework
+    
+  sicklesrework:
+    description: Пробуждение серпов визера
+    usage: /sicklesrework
+    permission: demorahopliteweapons.rework
+    
+  demoramenu:
+    description: Открыть меню легендарных оружий
+    usage: /demoramenu
+    aliases: [dm]
+    permission: demorahopliteweapons.menu
+    
+  dm:
+    description: Открыть меню легендарных оружий
+    usage: /dm
+    permission: demorahopliteweapons.menu
+    
+  dmr:
+    description: Открыть меню пробуждённых оружий
+    usage: /dmr
+    permission: demorahopliteweapons.menu
+
+permissions:
+  demorahopliteweapons.*:
+    description: Все права плагина
+    default: op
+    children:
+      demorahopliteweapons.give: true
+      demorahopliteweapons.reload: true
+      demorahopliteweapons.rework: true
+      demorahopliteweapons.menu: true
+  demorahopliteweapons.give:
+    description: Выдача оружия
+    default: op
+  demorahopliteweapons.reload:
+    description: Перезагрузка конфигурации
+    default: op
+  demorahopliteweapons.rework:
+    description: Пробуждение драконьей катаны
+    default: true
+  demorahopliteweapons.menu:
+    description: Открытие меню легендарных оружий
+    default: op
