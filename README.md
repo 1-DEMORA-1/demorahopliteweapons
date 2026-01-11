@@ -1,1 +1,19 @@
 # DEMORAHOPLITEWEAPONS
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/96b256e9-809f-47b3-b5bc-932808fca601" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/5c36ea18-ff6b-4135-ba2a-a5315bc68ac2" />
+<img width="1500" height="1500" alt="image" src="https://github.com/user-attachments/assets/1c717582-9f4c-483f-8c36-0dfa9ed62029" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/1cdaa696-b675-4b94-bc54-8d57c0b977fe" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/effcb347-9c0e-4d2d-95c6-c6eabdb35d07" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/dbf23852-e306-4265-9abc-eb868c3d8bbb" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/b2e25b3f-3fcd-46a6-aba6-83e60377c271" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/93aa998b-7b73-4dbc-883a-0b2528eff010" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/ac97bec7-a25c-41bb-a3df-383a7466e9c6" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/99e45f7c-b868-4ad9-bc47-db2363bb05fc" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/fbf9f3d3-25c7-437e-95b1-87b123bcf74e" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/190e577b-44e2-4fcc-a354-fc268e77a0eb" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/f19774fe-3456-4103-9e80-64a6ae7bc482" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/a549b867-d40a-44af-a97b-ffac79af65b5" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/3b6ac8c5-f736-4a4a-b2ca-003ba47720ca" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/fe8055d6-9631-4949-86c5-98ce5d91f4a3" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/a624f5f9-0e2e-4e32-8432-dc74bd0a3b20" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/23d6bf2c-e4a4-46ef-8a22-1f9fae8418a2" />
