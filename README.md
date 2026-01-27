@@ -1,4 +1,5 @@
 # DEMORAHOPLITEWEAPONS
+https://modrinth.com/plugin/demorahopliteweapons
 <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/96b256e9-809f-47b3-b5bc-932808fca601" />
 <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/5c36ea18-ff6b-4135-ba2a-a5315bc68ac2" />
 <img width="1500" height="1500" alt="image" src="https://github.com/user-attachments/assets/1c717582-9f4c-483f-8c36-0dfa9ed62029" />
